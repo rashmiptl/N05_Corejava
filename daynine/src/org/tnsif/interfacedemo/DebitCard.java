@@ -2,7 +2,7 @@ package org.tnsif.interfacedemo;
 
 public interface DebitCard {
   /*By default all the variables inside the interface are public static final
-   * and if nit is final then we must have to initialize value for that variable*/
+   * and if not is final then we must have to initialize value for that variable*/
 	long cardno=5467877548000L;
 	/*We cannot use concrete method in an interface
 	 * By default method inside interface is an abstract*/
